@@ -1,0 +1,20 @@
+database1: 
+  dbname: db_mysql
+  dbtable: music
+database2: 
+  dbname: db_mysql-test
+  dbtable: music
+pods: 
+  imagename: yanivomc/spring-music
+  imagetag: latest
+  replicas: 1
+food:
+   drink: beer
+   eat: peanut butter and jelly sandwich
+
+service:
+  name: omrilb
+  type: LoadBalancer
+
+
+
